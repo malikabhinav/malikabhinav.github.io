@@ -1,0 +1,22 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Abhinav Malik"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "January 2006"
+  description = "Senior Engineering Manager · Streaming Apps | Android, iOS & Roku | TiVo"
+
+[author]
+  name = "Abhinav Malik"
+  image = "img/avatar.jpg"
+  headline = "Senior Engineering Manager · Streaming Apps"
+  bio = "Building high-performing teams at TiVo across Android, iOS & Roku. Passionate about trust-first leadership, multi-platform delivery, and engineering culture."
+  links = [
+    { linkedin = "https://www.linkedin.com/in/malikabhinav/" },
+    { github = "https://github.com/malikabhinav" },
+    { email = "mailto:malikabhinav12@gmail.com" }
+  ]

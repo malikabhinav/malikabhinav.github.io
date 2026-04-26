@@ -1,0 +1,12 @@
+baseURL = "https://malikabhinav.github.io/"
+languageCode = "en"
+title = "Abhinav Malik"
+theme = "congo"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
