@@ -36,11 +36,6 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Debug - List theme files
-        run: |
-          echo "Checking themes directory..."
-          ls -R themes/congo | head -n 20
-
       - name: Setup GitHub Pages
         id: pages
         uses: actions/configure-pages@v4
