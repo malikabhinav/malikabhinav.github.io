@@ -1,7 +1,7 @@
 ---
 title: "アイコン"
 date: 2020-08-14
-lastmod: 2023-01-23
+lastmod: 2025-05-04
 draft: false
 description: "Congoでサポートされるアイコン"
 slug: "icons"
@@ -21,6 +21,7 @@ Congo は[FontAwesome 6](https://fontawesome.com/icons)のアイコンをサポ�
 | apple                | {{< icon apple >}}                |
 | bars                 | {{< icon bars >}}                 |
 | blogger              | {{< icon blogger >}}              |
+| bluesky              | {{< icon bluesky >}}              |
 | bug                  | {{< icon bug >}}                  |
 | check                | {{< icon check >}}                |
 | chevron-down         | {{< icon chevron-down >}}         |
@@ -39,12 +40,14 @@ Congo は[FontAwesome 6](https://fontawesome.com/icons)のアイコンをサポ�
 | github               | {{< icon github >}}               |
 | gitlab               | {{< icon gitlab >}}               |
 | globe                | {{< icon globe >}}                |
+| goodreads            | {{< icon goodreads >}}            |
 | google               | {{< icon google >}}               |
 | google-scholar       | {{< icon google-scholar >}}       |
 | hashnode             | {{< icon hashnode >}}             |
 | instagram            | {{< icon instagram >}}            |
 | keybase              | {{< icon keybase >}}              |
 | kickstarter          | {{< icon kickstarter >}}          |
+| kofi                 | {{< icon kofi >}}                 |
 | lastfm               | {{< icon lastfm >}}               |
 | lightbulb            | {{< icon lightbulb >}}            |
 | line                 | {{< icon line >}}                 |
@@ -62,8 +65,10 @@ Congo は[FontAwesome 6](https://fontawesome.com/icons)のアイコンをサポ�
 | pencil               | {{< icon pencil >}}               |
 | phone                | {{< icon phone >}}                |
 | pinterest            | {{< icon pinterest >}}            |
+| podcast              | {{< icon podcast >}}              |
 | reddit               | {{< icon reddit >}}               |
 | researchgate         | {{< icon researchgate >}}         |
+| rss                  | {{< icon rss >}}                  |
 | search               | {{< icon search >}}               |
 | skull-crossbones     | {{< icon skull-crossbones >}}     |
 | slack                | {{< icon slack >}}                |
@@ -71,6 +76,7 @@ Congo は[FontAwesome 6](https://fontawesome.com/icons)のアイコンをサポ�
 | soundcloud           | {{< icon soundcloud >}}           |
 | stack-overflow       | {{< icon stack-overflow >}}       |
 | steam                | {{< icon steam >}}                |
+| strava               | {{< icon strava >}}               |
 | sun                  | {{< icon sun >}}                  |
 | tag                  | {{< icon tag >}}                  |
 | telegram             | {{< icon telegram >}}             |
@@ -84,5 +90,6 @@ Congo は[FontAwesome 6](https://fontawesome.com/icons)のアイコンをサポ�
 | weibo                | {{< icon weibo >}}                |
 | whatsapp             | {{< icon whatsapp >}}             |
 | x-twitter            | {{< icon x-twitter >}}            |
+| xing                 | {{< icon xing >}}                 |
 | xmark                | {{< icon xmark >}}                |
 | youtube              | {{< icon youtube >}}              |

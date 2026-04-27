@@ -35,7 +35,7 @@ Hugoの標準的な設定変数はテーマ全体を通して尊重されます�
 |`baseURL`|_Not set_|ウェブサイトのルートへのURL。|
 |`defaultContentLanguage`|`"en"`|この値はテーマコンポーネントとコンテンツのデフォルト言語を決定します。サポートされる言語コードについては、下記の[言語と国際化](#言語と国際化)セクションを参照してください。|
 |`enableRobotsTXT`|`true`|有効にすると、サイトルートに `robots.txt` ファイルが作成され、検索エンジンがサイト全体をクロールできるようになります。あらかじめ用意されている `robots.txt` を利用したい場合は、`false` に設定して `static` ディレクトリにファイルを置いてください。完全にコントロールしたい場合は、[カスタムレイアウト]({{< ref "content-examples" >}})を指定してこのファイルを生成することができます。|
-|`paginate`|`10`|記事一覧の各ページに掲載される記事の数。|
+|`pagination.pagerSize`|`10`|記事一覧の各ページに掲載される記事の数。|
 |`summaryLength`|`0`|記事の要約が[フロントマター]({{< ref "front-matter" >}})で提供されていない場合に、記事の要約を生成するために使われる単語の数。デフォルト値 `0` は最初の文章を使用します。この値は要約が非表示の場合には影響しません。|
 |`outputs.home`|`["HTML", "RSS", "JSON"]`|生成される出力フォーマット。Congoでは、すべてのテーマコンポーネントが正しく動作するために、HTML、RSS、JSONが必要です。|
 |`permalinks`|_Not set_|パーマリンクの設定は[Hugo docs](https://gohugo.io/content-management/urls/#permalinks)を参照してください。|
@@ -48,33 +48,38 @@ Congoは完全な多言語ウェブサイト用に最適化されており、テ
 
 Congoは現在、以下の言語に対応しています:
 
-| Language                                | Code    |
-| --------------------------------------- | ------- |
-| :gb: **English (default)**              | `en`    |
-| :egypt: Arabic                          | `ar`    |
-| :bangladesh: Bengali                    | `bn`    |
-| :bulgaria: Bulgarian                    | `bg`    |
-| :cn: Chinese - Simplified (China)       | `zh-cn` |
-| :taiwan: Chinese - Traditional (Taiwan) | `zh-tw` |
-| :flag-cz: Czech                         | `cs`    |
-| :netherlands: Dutch                     | `nl`    |
-| :finland: Finnish                       | `fi`    |
-| :fr: French                             | `fr`    |
-| :de: German                             | `de`    |
-| :israel: Hebrew                         | `he`    |
-| :hungary: Hungarian                     | `hu`    |
-| :indonesia: Indonesian                  | `id`    |
-| :it: Italian                            | `it`    |
-| :jp: Japanese                           | `ja`    |
-| :poland: Polish                         | `pl`    |
-| :brazil: Portuguese (Brazil)            | `pt-br` |
-| :portugal: Portuguese (Portugal)        | `pt-pt` |
-| :romania: Romanian                      | `ro`    |
-| :ru: Russian                            | `ru`    |
-| :slovakia: Slovak                       | `sk`    |
-| :es: Spanish (Spain)                    | `es`    |
-| :tr: Turkish                            | `tr`    |
-| :ukraine: Ukrainian                     | `uk`    |
+| Language              | Code      |
+| --------------------- | --------- |
+| **English (default)** | `en`      |
+| Arabic                | `ar`      |
+| Bengali               | `bn`      |
+| Bulgarian             | `bg`      |
+| Chinese - Simplified  | `zh-Hans` |
+| Chinese - Traditional | `zh-Hant` |
+| Czech                 | `cs`      |
+| Dutch                 | `nl`      |
+| Finnish               | `fi`      |
+| French                | `fr`      |
+| German                | `de`      |
+| Hebrew                | `he`      |
+| Hungarian             | `hu`      |
+| Indonesian            | `id`      |
+| Italian               | `it`      |
+| Japanese              | `ja`      |
+| Korean                | `ko`      |
+| Norwegian - Bokmål    | `nb`      |
+| Polish                | `pl`      |
+| Portuguese (Brazil)   | `pt-br`   |
+| Portuguese (Portugal) | `pt-pt`   |
+| Romanian              | `ro`      |
+| Russian               | `ru`      |
+| Slovak                | `sk`      |
+| Spanish (Spain)       | `es`      |
+| Swedish               | `sv`      |
+| Tamil                 | `ta`      |
+| Turkish               | `tr`      |
+| Ukrainian             | `uk`      |
+| Vietnamese            | `vi`      |
 
 翻訳文字列を含むカスタムファイルを `i18n/[code].yaml` に作成することでデフォルトの翻訳をオーバーライドできます。このメソッドを使って新しい言語を追加することもできます。新しい翻訳をコミュニティと共有したい場合、[Pull Request](https://github.com/jpanther/congo/pulls)を作ってください。
 
@@ -125,6 +130,7 @@ Congoはテーマの機能を制御する多数の設定パラメーターを提
 |Name|Default|Description|
 |---|---|---|
 |`colorScheme`|`"congo"`|使用する配色。有効な値は `congo` (デフォルト), `avocado`, `cherry`, `fire`, `ocean`, `sapphire`, `slate` です。詳しくは [カラースキーム]({{< ref "getting-started#カラースキーム" >}})セクションを参照してください。|
+|`defaultThemeColor`|`"#FFFFFF"`|まだ翻訳されていません。|
 |`defaultAppearance`|`"light"`|デフォルトのテーマ外観、 `light` または `dark` のいずれか。|
 |`autoSwitchAppearance`|`true`|テーマの外観を訪問者のオペレーティングシステムの設定に基づいて自動的に切り替えるかどうか。常に `defaultAppearance` を使うようにするには `false` を設定します。|
 |`enableSearch`|`false`|サイト内検索を有効にするかどうか。検索機能を有効にするには `true` を設定します。検索機能は、[サイト設定](#サイト設定)の `outputs.home` が正しく設定されているかどうかに依存することに注意してください。|
