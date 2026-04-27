@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Added
+
+- Hindi and Gujarati translations ([#1093](https://github.com/jpanther/congo/pull/1093))
+
+### Changed
+
+- Upgrade to KaTeX v0.16.28 ([#1140](https://github.com/jpanther/congo/pull/1140))
+
 ## [2.13.0] - 2026-01-20
 
 ### Added
