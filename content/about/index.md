@@ -10,6 +10,7 @@ showAuthor: false
 ## Who I am
 
 I build teams where engineers feel safe, trusted, and empowered to do their best work.
+Engineering leader who builds high-ownership teams — where accountability is the culture, not the ask.
 
 My management philosophy is straightforward: set clear expectations, earn trust over time, and make sure every person on my team knows I have their back — unconditionally. I don't believe in micromanagement. Talented engineers already know how to solve hard problems. My job is to remove obstacles, protect the team from organizational noise, and create the space where they can focus.
 
