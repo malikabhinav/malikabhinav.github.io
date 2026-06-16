@@ -1,10 +1,6 @@
-# My portfolio and Engineering blog 
-### Link → https://malikabhinav.github.io/
-### Built with Hugo + Congo theme
+# My Portfolio and Blog
+Built by a Senior Engineering Manager with experience delivering PayTV streaming apps at TiVo (Xperi), 2019–present.
 
-## Objective
-Build a personal website that showcases my leadership philosophy, technical depth, and career highlights. Designed to serve as a living, shareable artifact for networking and professional branding.
+### Built with Hugo + Congo theme -> https://malikabhinav.github.io/
 
-## [First Time Setup Steps](first-time-setup.md)
-
-## [Writing References & Guidelines](writing-references-guidelines.md)
+### [First Time Setup Steps](first-time-setup.md)
