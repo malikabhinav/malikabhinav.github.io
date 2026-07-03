@@ -95,3 +95,19 @@ Always happy to connect with other engineering leaders, swap notes on streaming 
 - [LinkedIn](https://www.linkedin.com/in/malikabhinav/)
 - [GitHub](https://github.com/malikabhinav)
 - [Email](mailto:malikabhinav12@gmail.com)
+
+
+---
+## Mermaid sample
+
+{{< mermaid >}}
+graph TD
+    %% VOD Pipeline
+    subgraph VOD [Video on Demand Pipeline]
+        A1[Pre-recorded Source] --> B1[Bulk Ingest]
+        B1 --> C1[Multi-pass Transcode]
+    end
+
+     
+    style VOD fill:#f9f9f9,stroke:#333,stroke-width:2px
+{{< /mermaid >}}
