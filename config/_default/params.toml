@@ -66,7 +66,7 @@ robots = ""
 [author]
   name = "Abhinav Malik"
   image = "img/avatar.jpg"
-  headline = "Senior Engineering Manager · Streaming Apps"
+  headline = "Senior Engineering Manager · Client Engineering"
   bio = "Building high-performing teams at TiVo across Android, iOS & Roku. Passionate about trust-first leadership, multi-platform delivery, and engineering culture."
   links = [
     { linkedin = "https://www.linkedin.com/in/malikabhinav/" },
