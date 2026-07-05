@@ -1,11 +1,59 @@
 ---
-title: "About"
+title: "About Me"
 description: "Senior Engineering Manager focused on streaming, multi-platform delivery, and building teams people love being part of."
 showDate: false
-showReadingTime: false
+showReadingTime: true
 showTableOfContents: true
 showAuthor: false
 ---
+
+Hi there! I’m Abhinav Malik, a **Senior Engineering Manager specializing in Client Engineering**. 
+
+With over 19 years of journeying through the tech landscape evolving from a hands-on engineer into a strategic leade. I focus on building high-performing frontend teams and shipping exceptional user experiences. Currently, I lead engineering teams dedicated to delivering high-fidelity Mobile and Smart TV streaming applications.
+
+---
+
+## 🛠️ What I Do
+
+I sit at the intersection of complex client architecture, product strategy, and people leadership. My day-to-day focuses on:
+
+*   **Engineering Leadership:** Scaling cross-functional, multi-platform client teams (Android, iOS, and Smart TV ecosystems). I focus on fostering psychological safety, clear ownership, and continuous career growth.
+*   **Client Architecture at Scale:** Championing clean code, modular architecture, performance optimization, and design fidelity to ensure robust white-label and flagship application deployment.
+*   **Cross-Functional Strategy:** Partnering closely with Product, UX Design, and Backend teams to translate ambitious product roadmaps into predictable, high-quality engineering execution.
+
+---
+
+## 📋 My Management Philosophy
+
+Great software is a byproduct of great team culture. My leadership approach is driven by a few core tenets:
+
+*   **People First, Always:** I believe my primary job is to clear blockers, provide growth opportunities, and empower engineers to do the best work of their careers.
+*   **User-Centric Execution:** Client engineering is the closest layer to the end user. I push for an uncompromising focus on UI responsiveness, accessibility, and stellar UX.
+*   **Pragmatic Innovation:** Whether it’s automating development workflows or evaluating how modern AI utilities can optimize our requirements and documentation, I love leveraging technology to reduce engineering friction.
+
+---
+
+## ☕ Beyond the Code
+
+When I take off my engineering management hat, you can usually find me:
+
+*   ⚽ Waking up at odd hours to cheer on **Manchester United** (riding the highs and navigating the lows).
+*   🎧 Diving into podcasts covering technical leadership, product strategy, and evolving industry trends.
+*   🎵 Spinning up deep-work soundtracks—if you need a solid instrumental background for a long coding session, feel free to check out my **[Focus Playlist 🔗]**.
+
+---
+
+### Let's Connect!
+
+I’m always happy to chat about client engineering architecture, modern leadership challenges, or the state of the Premier League. 
+
+*   **LinkedIn:** [https://www.linkedin.com/in/malikabhinav/]
+*   **GitHub:** [Your GitHub Link]
+*   **Read my career history:** Head over to my [Resume Page].
+
+
+---
+# BELOW CONTENT NEEDS TO BE REVIEWED
 
 ## Who I am
 

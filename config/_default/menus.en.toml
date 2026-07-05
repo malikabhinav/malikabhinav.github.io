@@ -5,7 +5,7 @@
 
 [[main]]
   name = "About Me"
-  pageRef = "about me"
+  pageRef = "about"
   weight = 20
 
 [[main]]
