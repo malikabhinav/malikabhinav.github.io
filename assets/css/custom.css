@@ -25,3 +25,15 @@ html {
   width: 28px !important;
   height: 28px !important;
 }
+
+/* Clear all links underlines/highlights from the PDF download button */
+.resume-download-btn,
+.resume-download-btn:hover,
+.resume-download-btn:active,
+.resume-download-btn:focus {
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
