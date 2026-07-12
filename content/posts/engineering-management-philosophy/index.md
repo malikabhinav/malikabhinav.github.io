@@ -2,7 +2,7 @@
 title: "The Management Philosophy I Wish Someone Had Told Me"
 date: 2024-01-15
 description: "Trust over process. Safety over politics. Strength over control. How I think about engineering management after 15+ years in the industry."
-tags: ["leadership", "engineering-management", "culture", "team-building"]
+tags: ["leadership", "engineering-management", "culture", "team-building", "tech"]
 categories: ["Leadership"]
 series: ["Engineering Leadership"]
 showTableOfContents: true

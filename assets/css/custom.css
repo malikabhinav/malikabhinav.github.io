@@ -1,3 +1,8 @@
+/* Prevent layout shift (jerk) caused by vertical scrollbars appearing/disappearing */
+html {
+  scrollbar-gutter: stable;
+}
+
 /* Custom styles for Mermaid diagrams */
 .mermaid {
   overflow-x: auto !important;
@@ -10,4 +15,13 @@
   min-width: 600px !important;
   max-width: 50% !important;
   height: auto !important;
+}
+
+/* Navbar Home Logo Icon Size */
+.home-logo-link .icon {
+  font-size: 28px !important;
+}
+.home-logo-link svg {
+  width: 28px !important;
+  height: 28px !important;
 }
