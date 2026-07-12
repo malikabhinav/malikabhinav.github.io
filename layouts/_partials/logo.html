@@ -1,0 +1,36 @@
+{{- if .Site.Params.header.logo }}
+  {{- $logo := resources.Get .Site.Params.header.logo }}
+  {{- $logo_dark := resources.Get .Site.Params.header.logoDark }}
+  {{- if $logo }}
+    <a href="{{ "" | relLangURL }}" class="mr-2">
+      <!-- prettier-ignore-attribute -->
+      <img
+        src="{{ $logo.Permalink }}"
+        width="{{ div $logo.Width 2 }}"
+        height="{{ div $logo.Height 2 }}"
+        class="max-h-[10rem] max-w-[10rem] object-scale-down object-left
+        {{ if $logo_dark }}dark:hidden flex{{ end }}"
+        alt="{{ .Site.Title }}"
+      />
+      {{- if $logo_dark }}
+        <img
+          src="{{ $logo_dark.Permalink }}"
+          width="{{ div $logo_dark.Width 2 }}"
+          height="{{ div $logo_dark.Height 2 }}"
+          class="hidden max-h-[10rem] max-w-[10rem] object-scale-down object-left dark:flex"
+          alt="{{ .Site.Title }}"
+        />
+      {{- end }}
+    </a>
+  {{- end }}
+{{- end }}
+{{- if .Site.Params.header.showTitle | default true }}
+  <a
+    class="text-neutral-700 hover:text-primary-600 dark:text-neutral-300 dark:hover:text-primary-400 home-logo-link"
+    rel="me"
+    href="{{ .Site.Home.RelPermalink }}"
+    aria-label="Home"
+    title="Home"
+    >{{ partial "icon.html" "home" }}</a
+  >
+{{- end }}
