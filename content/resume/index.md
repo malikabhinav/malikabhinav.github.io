@@ -8,89 +8,118 @@ showTableOfContents: true
 showAuthor: false
 ---
 
-## Experience
+<h2 class="text-center">Skills & Expertise</h2>
 
-<table>
+* **Leadership & Management**: Team Building (US & Offshore), Strategic Engineering Roadmap, Multi-Platform Delivery, Agile/Scrum, Cross-Functional Alignment, Engineering Culture.
+* **Client & TV Platforms**: Android TV, Apple TV (tvOS), Roku, SmartTVs (Samsung Tizen, LG webOS), Mobile (iOS & Android).
+* **Streaming Architecture**: Live & On-Demand (VOD) Video Architectures, SSAI / CSAI Ad Tech Integration, Performance & Quality Optimization.
+* **Engineering Operations**: Test Automation Modernization, Vendor & Partner Management, Systems Architecture.
+
+---
+
+<h2 class="text-center">Experience</h2>
+
+<div class="overflow-x-auto my-6">
+<table class="w-full text-left border-collapse">
   <thead>
-    <tr>
-      <th>Company</th>
-      <th>Role</th>
-      <th>Dates</th>
-      <th>Location</th>
+    <tr class="border-b-2 border-neutral-300 dark:border-neutral-700">
+      <th class="py-4 px-4 font-bold text-lg text-center">Company</th>
+      <th class="py-4 px-4 font-bold text-lg text-center">Role</th>
+      <th class="py-4 px-4 font-bold text-lg text-center">Dates</th>
+      <th class="py-4 px-4 font-bold text-lg text-center">Location</th>
     </tr>
   </thead>
   <tbody>
     <!-- TiVo -->
-    <tr>
-      <td>
-        <strong>TiVo</strong>
+    <tr class="border-b border-neutral-200 dark:border-neutral-800">
+      <td class="py-4 px-4 align-top">
+        <div class="flex flex-col items-center justify-center text-center gap-2">
+          <div class="logo-badge">
+            <img src="/img/logos/tivo.webp" alt="TiVo" class="logo-badge-img" />
+          </div>
+          <a href="https://www.tivo.com" target="_blank" rel="noopener" class="font-bold text-base no-underline hover:underline">TiVo</a>
+        </div>
       </td>
-      <td>Senior Engineering Manager</td>
-      <td>2021 – Present</td>
-      <td>Remote / Hybrid</td>
+      <td class="py-4 px-4 font-medium align-top">Senior Engineering Manager</td>
+      <td class="py-4 px-4 whitespace-nowrap align-top">2021 – Present</td>
+      <td class="py-4 px-4 align-top">Remote / Hybrid</td>
     </tr>
     <!-- MobiTV -->
-    <tr>
-      <td>
-        <strong>MobiTV</strong><br><small><i>(Acquired by TiVo)</i></small>
+    <tr class="border-b border-neutral-200 dark:border-neutral-800">
+      <td class="py-4 px-4 align-top">
+        <div class="flex flex-col items-center justify-center text-center gap-2">
+          <div class="logo-badge">
+            <img src="/img/logos/mobitv.webp" alt="MobiTV" class="logo-badge-img" />
+          </div>
+          <div>
+            <span class="font-bold text-base text-neutral-900 dark:text-neutral-100">MobiTV</span>
+            <div class="text-xs text-neutral-500 dark:text-neutral-400 font-normal mt-0.5">(Acquired by TiVo)</div>
+          </div>
+        </div>
       </td>
-      <td>Senior Technical Program Manager</td>
-      <td>2019 – 2021</td>
-      <td>Remote / Hybrid</td>
+      <td class="py-4 px-4 font-medium align-top">Senior Technical Program Manager</td>
+      <td class="py-4 px-4 whitespace-nowrap align-top">2019 – 2021</td>
+      <td class="py-4 px-4 align-top">Remote / Hybrid</td>
     </tr>
     <!-- Bridgewater Associates -->
-    <tr>
-      <td>
-        <strong>Bridgewater Associates</strong>
+    <tr class="border-b border-neutral-200 dark:border-neutral-800">
+      <td class="py-4 px-4 align-top">
+        <div class="flex flex-col items-center justify-center text-center gap-2">
+          <div class="logo-badge">
+            <img src="/img/logos/bridgewater.webp" alt="Bridgewater Associates" class="logo-badge-img" />
+          </div>
+          <a href="https://www.bridgewater.com" target="_blank" rel="noopener" class="font-bold text-base no-underline hover:underline">Bridgewater Associates</a>
+        </div>
       </td>
-      <td>Senior Technical Program Manager</td>
-      <td>2018 – 2019</td>
-      <td>Westport, CT</td>
+      <td class="py-4 px-4 font-medium align-top">Senior Technical Program Manager</td>
+      <td class="py-4 px-4 whitespace-nowrap align-top">2018 – 2019</td>
+      <td class="py-4 px-4 align-top">Westport, CT</td>
     </tr>
     <!-- AIG -->
-    <tr>
-      <td>
-        <strong>AIG</strong>
+    <tr class="border-b border-neutral-200 dark:border-neutral-800">
+      <td class="py-4 px-4 align-top">
+        <div class="flex flex-col items-center justify-center text-center gap-2">
+          <div class="logo-badge">
+            <img src="/img/logos/aig.webp" alt="AIG" class="logo-badge-img" />
+          </div>
+          <a href="https://www.aig.com" target="_blank" rel="noopener" class="font-bold text-base no-underline hover:underline">AIG</a>
+        </div>
       </td>
-      <td>Technical Project Manager / Scrum Master</td>
-      <td>2017 – 2018</td>
-      <td>New York, NY</td>
+      <td class="py-4 px-4 font-medium align-top">Technical Project Manager / Scrum Master</td>
+      <td class="py-4 px-4 whitespace-nowrap align-top">2017 – 2018</td>
+      <td class="py-4 px-4 align-top">New York, NY</td>
     </tr>
     <!-- TIAA -->
-    <tr>
-      <td>
-        <strong>TIAA</strong>
+    <tr class="border-b border-neutral-200 dark:border-neutral-800">
+      <td class="py-4 px-4 align-top">
+        <div class="flex flex-col items-center justify-center text-center gap-2">
+          <div class="logo-badge">
+            <img src="/img/logos/tiaa.webp" alt="TIAA" class="logo-badge-img" />
+          </div>
+          <a href="https://www.tiaa.org" target="_blank" rel="noopener" class="font-bold text-base no-underline hover:underline">TIAA</a>
+        </div>
       </td>
-      <td>Technical Project Manager / Scrum Master</td>
-      <td>2014 – 2017</td>
-      <td>Charlotte, NC</td>
+      <td class="py-4 px-4 font-medium align-top">Technical Project Manager / Scrum Master</td>
+      <td class="py-4 px-4 whitespace-nowrap align-top">2014 – 2017</td>
+      <td class="py-4 px-4 align-top">Charlotte, NC</td>
     </tr>
-    <!-- Bank of America (Grouped Roles) -->
-    <tr>
-      <td rowspan="2">
-        <strong>Bank of America</strong>
+    <!-- Bank of America -->
+    <tr class="border-b border-neutral-200 dark:border-neutral-800">
+      <td class="py-4 px-4 align-top">
+        <div class="flex flex-col items-center justify-center text-center gap-2">
+          <div class="logo-badge">
+            <img src="/img/logos/bankofamerica.webp" alt="Bank of America" class="logo-badge-img" />
+          </div>
+          <a href="https://www.bankofamerica.com" target="_blank" rel="noopener" class="font-bold text-base no-underline hover:underline">Bank of America</a>
+        </div>
       </td>
-      <td>Staff Engineer / Delivery</td>
-      <td>2012 – 2014</td>
-      <td rowspan="2">Charlotte, NC</td>
-    </tr>
-    <tr>
-      <td>Engineer → Senior Engineer <br><small><i>(with Kohl's)</i></small></td>
-      <td>2006 – 2012</td>
+      <td class="py-4 px-4 font-medium align-top">
+        Staff Engineer / Delivery
+        <div class="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Engineer → Senior Engineer <span class="italic">(with Kohl's / Infosys)</span> (2006 – 2012)</div>
+      </td>
+      <td class="py-4 px-4 whitespace-nowrap align-top">2006 – 2014</td>
+      <td class="py-4 px-4 align-top">Charlotte, NC</td>
     </tr>
   </tbody>
 </table>
-
----
-
-## Skills
-
-* **Leadership & Strategy**: Team Building, Project Management, Agile / Scrum, Cross-Functional Collaboration, Offshore & Vendor Management.
-* **Streaming Technologies**: Android TV, Apple TV (tvOS), Roku, SmartTVs (Samsung Tizen, LG webOS), Live & On-Demand (VOD) Video Architectures, SSAI / CSAI Ad Tech.
-* **Software Engineering**: Frontend Web Development, Systems Architecture, Test Automation Modernization (Selenium).
-
----
-
-## Education
-
-*(Add your educational background, certificates, or courses here)*
+</div>
