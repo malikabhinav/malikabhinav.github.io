@@ -25,3 +25,47 @@ html {
   width: 28px !important;
   height: 28px !important;
 }
+
+/* Clear all links underlines/highlights from the PDF download button */
+.resume-download-btn,
+.resume-download-btn:hover,
+.resume-download-btn:active,
+.resume-download-btn:focus {
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+/* Resume Logo Badge Container */
+.logo-badge {
+  width: 64px !important;
+  height: 64px !important;
+  min-width: 64px !important;
+  min-height: 64px !important;
+  border-radius: 10px !important;
+  background-color: #ffffff !important;
+  border: 1px solid rgba(229, 229, 229, 0.8) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 6px !important;
+  flex-shrink: 0 !important;
+}
+
+.dark .logo-badge {
+  border-color: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.logo-badge-img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+  display: block !important;
+}

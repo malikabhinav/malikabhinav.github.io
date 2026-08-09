@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Me"
 description: "Senior Engineering Manager focused on streaming, multi-platform delivery, and building teams people love being part of."
 showDate: false
 showReadingTime: false
