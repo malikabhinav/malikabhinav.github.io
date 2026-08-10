@@ -8,7 +8,7 @@ showTableOfContents: true
 showAuthor: false
 ---
 
-<h2 class="text-center">Skills & Expertise</h2>
+## Skills & Expertise
 
 * **Leadership & Management**: Team Building (US & Offshore), Strategic Engineering Roadmap, Multi-Platform Delivery, Agile/Scrum, Cross-Functional Alignment, Engineering Culture.
 * **Client & TV Platforms**: Android TV, Apple TV (tvOS), Roku, SmartTVs (Samsung Tizen, LG webOS), Mobile (iOS & Android).
@@ -17,7 +17,7 @@ showAuthor: false
 
 ---
 
-<h2 class="text-center">Experience</h2>
+## Experience
 
 <div class="overflow-x-auto my-6">
 <table class="w-full text-left border-collapse">
@@ -42,7 +42,7 @@ showAuthor: false
       </td>
       <td class="py-4 px-4 font-medium align-top">Senior Engineering Manager</td>
       <td class="py-4 px-4 whitespace-nowrap align-top">2021 – Present</td>
-      <td class="py-4 px-4 align-top">Remote / Hybrid</td>
+      <td class="py-4 px-4 align-top">San Francisco Bay Area</td>
     </tr>
     <!-- MobiTV -->
     <tr class="border-b border-neutral-200 dark:border-neutral-800">
@@ -59,7 +59,7 @@ showAuthor: false
       </td>
       <td class="py-4 px-4 font-medium align-top">Senior Technical Program Manager</td>
       <td class="py-4 px-4 whitespace-nowrap align-top">2019 – 2021</td>
-      <td class="py-4 px-4 align-top">Remote / Hybrid</td>
+      <td class="py-4 px-4 align-top">San Francisco Bay Area</td>
     </tr>
     <!-- Bridgewater Associates -->
     <tr class="border-b border-neutral-200 dark:border-neutral-800">
@@ -85,7 +85,7 @@ showAuthor: false
           <a href="https://www.aig.com" target="_blank" rel="noopener" class="font-bold text-base no-underline hover:underline">AIG</a>
         </div>
       </td>
-      <td class="py-4 px-4 font-medium align-top">Technical Project Manager / Scrum Master</td>
+      <td class="py-4 px-4 font-medium align-top">Technical Project Manager</td>
       <td class="py-4 px-4 whitespace-nowrap align-top">2017 – 2018</td>
       <td class="py-4 px-4 align-top">New York, NY</td>
     </tr>
@@ -99,7 +99,7 @@ showAuthor: false
           <a href="https://www.tiaa.org" target="_blank" rel="noopener" class="font-bold text-base no-underline hover:underline">TIAA</a>
         </div>
       </td>
-      <td class="py-4 px-4 font-medium align-top">Technical Project Manager / Scrum Master</td>
+      <td class="py-4 px-4 font-medium align-top">Technical Project Manager</td>
       <td class="py-4 px-4 whitespace-nowrap align-top">2014 – 2017</td>
       <td class="py-4 px-4 align-top">Charlotte, NC</td>
     </tr>
@@ -113,12 +113,53 @@ showAuthor: false
           <a href="https://www.bankofamerica.com" target="_blank" rel="noopener" class="font-bold text-base no-underline hover:underline">Bank of America</a>
         </div>
       </td>
-      <td class="py-4 px-4 font-medium align-top">
-        Staff Engineer / Delivery
-        <div class="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Engineer → Senior Engineer <span class="italic">(with Kohl's / Infosys)</span> (2006 – 2012)</div>
-      </td>
+      <td class="py-4 px-4 font-medium align-top">Staff Engineer / Delivery</td>
       <td class="py-4 px-4 whitespace-nowrap align-top">2006 – 2014</td>
       <td class="py-4 px-4 align-top">Charlotte, NC</td>
+    </tr>
+    <!-- Kohl's -->
+    <tr class="border-b border-neutral-200 dark:border-neutral-800">
+      <td class="py-4 px-4 align-top">
+        <div class="flex flex-col items-center justify-center text-center gap-2">
+          <div class="logo-badge">
+            <img src="/img/logos/kohls.webp" alt="Bank of America" class="logo-badge-img" />
+          </div>
+          <a href="https://www.kohls.com" target="_blank" rel="noopener" class="font-bold text-base no-underline hover:underline">Kohl's</a>
+        </div>
+      </td>
+      <td class="py-4 px-4 font-medium align-top">Staff Engineer</td>
+      <td class="py-4 px-4 whitespace-nowrap align-top">2012-2012</td>
+      <td class="py-4 px-4 align-top">Milwaukee, WI</td>
+    </tr>
+    <!-- Bank of America -->
+    <tr class="border-b border-neutral-200 dark:border-neutral-800">
+      <td class="py-4 px-4 align-top">
+        <div class="flex flex-col items-center justify-center text-center gap-2">
+          <div class="logo-badge">
+            <img src="/img/logos/bankofamerica.webp" alt="Bank of America" class="logo-badge-img" />
+          </div>
+          <div>
+            <span class="font-bold text-base text-neutral-900 dark:text-neutral-100">BOfA Merchant Services</span>
+          </div>
+        </div>
+      </td>
+      <td class="py-4 px-4 font-medium align-top">Staff Engineer</td>
+      <td class="py-4 px-4 whitespace-nowrap align-top">2011-2012</td>
+      <td class="py-4 px-4 align-top">Louisville, KY</td>
+    </tr>
+    <!-- Infosys -->
+    <tr class="border-b border-neutral-200 dark:border-neutral-800">
+      <td class="py-4 px-4 align-top">
+        <div class="flex flex-col items-center justify-center text-center gap-2">
+          <div class="logo-badge">
+            <img src="/img/logos/infosys.webp" alt="Bank of America" class="logo-badge-img" />
+          </div>
+          <a href="https://www.infosys.com" target="_blank" rel="noopener" class="font-bold text-base no-underline hover:underline">Infosys</a>
+        </div>
+      </td>
+      <td class="py-4 px-4 font-medium align-top">Web Developer</td>
+      <td class="py-4 px-4 whitespace-nowrap align-top">2006-2011</td>
+      <td class="py-4 px-4 align-top">India</td>
     </tr>
   </tbody>
 </table>
