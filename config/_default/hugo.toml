@@ -3,6 +3,8 @@ languageCode = "en"
 title = "Abhinav Malik"
 theme = "congo"
 
+summaryLength = 40
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
