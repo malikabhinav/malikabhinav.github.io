@@ -10,10 +10,10 @@
 
 [[main]]
   name = "Leadership"
-  url = "/tags/leadership/"
+  url = "/categories/leadership/"
   weight = 30
 
 [[main]]
   name = "Tech"
-  url = "/tags/tech/"
+  url = "/categories/tech/"
   weight = 40
