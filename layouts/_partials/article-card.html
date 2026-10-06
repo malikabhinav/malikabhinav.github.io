@@ -1,0 +1,61 @@
+{{ $link := .RelPermalink }}
+{{ with .Params.externalUrl }}
+  {{ $link = . }}
+{{ end }}
+
+<article class="article-card">
+  {{- $images := $.Resources.ByType "image" }}
+  {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
+  {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
+  {{- with $feature }}
+    <div class="article-card-image">
+      <img
+        src="{{ .Permalink }}"
+        alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default $.Title }}"
+        loading="lazy"
+      />
+    </div>
+  {{- end }}
+
+  <div class="article-card-body">
+    <div class="article-card-top">
+      {{ with .Params.categories }}
+        <div class="article-card-badge">
+          {{ index . 0 }}
+        </div>
+      {{ end }}
+
+      <h3 class="article-card-title">
+        <a href="{{ $link }}">
+          {{ .Title | emojify }}
+        </a>
+        {{ if and .Draft .Site.Params.article.showDraftLabel }}
+          <span class="ms-2 inline-block align-middle">
+            {{ partial "badge.html" (i18n "article.draft" | emojify) }}
+          </span>
+        {{ end }}
+      </h3>
+
+      <div class="article-card-meta">
+        {{ partial "article-meta.html" . }}
+      </div>
+    </div>
+
+    {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default true) }}
+      <div class="article-card-summary prose dark:prose-invert">
+        {{ $summary := .Summary }}
+        {{ if and (not .Params.summary) (strings.Contains .Content "<hr") }}
+          {{ $summary = index (split .Content "<hr") 0 }}
+        {{ end }}
+        {{ $summary | safeHTML | emojify }}
+      </div>
+    {{ end }}
+
+    <div class="article-card-footer">
+      <span class="article-card-readmore">
+        <span>Read article</span>
+        <span class="readmore-arrow" aria-hidden="true">&rarr;</span>
+      </span>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,25 @@
+{{ if .Site.Params.homepage.showRecent | default false }}
+  {{ $limit := .Site.Params.homepage.recentLimit | default (.Site.Params.homepage.showRecentItems | default 6) }}
+  {{ $mainSections := .Site.Params.mainSections | default (slice "posts") }}
+  {{ $recentPages := where .Site.RegularPages "Type" "in" $mainSections }}
+
+  {{ if gt (len $recentPages) 0 }}
+    <section class="recent-articles-section">
+      <div class="recent-articles-header">
+        <h2 class="recent-articles-title">{{ i18n "shortcode.recent_articles" | default "Recent Articles" | emojify }}</h2>
+        {{ if .Site.Params.homepage.showMoreLink | default false }}
+          <a class="recent-articles-more" href="{{ .Site.Params.homepage.showMoreLinkDest | default "/posts" | relLangURL }}">
+            <span>All articles</span>
+            <span aria-hidden="true">&rarr;</span>
+          </a>
+        {{ end }}
+      </div>
+
+      <div class="article-cards-grid">
+        {{ range first $limit $recentPages }}
+          {{ partial "article-card.html" . }}
+        {{ end }}
+      </div>
+    </section>
+  {{ end }}
+{{ end }}

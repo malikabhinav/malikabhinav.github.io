@@ -74,3 +74,277 @@ html {
 .prose h2 {
   text-align: center;
 }
+
+/* ==========================================================================
+   Home Page Article Cards Layout
+   ========================================================================== */
+
+.recent-articles-section {
+  width: 100%;
+  margin-top: 2.75rem;
+  margin-bottom: 3.5rem;
+}
+
+.recent-articles-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.625rem;
+  border-bottom: 1px solid rgba(var(--color-neutral-200), 0.7);
+}
+
+.dark .recent-articles-header {
+  border-bottom-color: rgba(var(--color-neutral-700), 0.6);
+}
+
+.recent-articles-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: rgba(var(--color-neutral-900), 1);
+}
+
+.dark .recent-articles-title {
+  color: rgba(var(--color-neutral-50), 1);
+}
+
+.recent-articles-more {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgba(var(--color-primary-600), 1);
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: all 0.2s ease;
+}
+
+.dark .recent-articles-more {
+  color: rgba(var(--color-primary-400), 1);
+}
+
+.recent-articles-more:hover {
+  color: rgba(var(--color-primary-700), 1);
+  transform: translateX(2px);
+}
+
+.dark .recent-articles-more:hover {
+  color: rgba(var(--color-primary-300), 1);
+}
+
+/* Card Grid */
+.article-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .article-cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Article Card */
+.article-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 1px solid rgba(var(--color-neutral-200), 0.9);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.dark .article-card {
+  background-color: rgba(var(--color-neutral-800), 0.65);
+  border-color: rgba(var(--color-neutral-700), 0.75);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+
+.article-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(var(--color-primary-400), 0.7);
+  box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08), 0 4px 8px -4px rgba(0, 0, 0, 0.03);
+}
+
+.dark .article-card:hover {
+  border-color: rgba(var(--color-primary-500), 0.7);
+  box-shadow: 0 12px 28px -6px rgba(0, 0, 0, 0.45);
+}
+
+/* Card Image (if feature/thumbnail present) */
+.article-card-image {
+  margin: -1.5rem -1.5rem 1rem -1.5rem;
+  max-height: 180px;
+  overflow: hidden;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.article-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover .article-card-image img {
+  transform: scale(1.03);
+}
+
+/* Card Body */
+.article-card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Category Badge */
+.article-card-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  background-color: rgba(var(--color-primary-100), 0.8);
+  color: rgba(var(--color-primary-700), 1);
+  margin-bottom: 0.75rem;
+  position: relative;
+  z-index: 2;
+  width: fit-content;
+}
+
+.dark .article-card-badge {
+  background-color: rgba(var(--color-primary-950), 0.8);
+  color: rgba(var(--color-primary-300), 1);
+  border: 1px solid rgba(var(--color-primary-800), 0.6);
+}
+
+/* Card Title */
+.article-card-title {
+  margin: 0 0 0.5rem 0 !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+}
+
+.article-card-title a {
+  color: rgba(var(--color-neutral-900), 1);
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+.dark .article-card-title a {
+  color: rgba(var(--color-neutral-50), 1);
+}
+
+/* Make entire card clickable via stretched link on title */
+.article-card-title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: 1rem;
+}
+
+.article-card:hover .article-card-title a {
+  color: rgba(var(--color-primary-600), 1);
+}
+
+.dark .article-card:hover .article-card-title a {
+  color: rgba(var(--color-primary-400), 1);
+}
+
+/* Card Meta */
+.article-card-meta {
+  font-size: 0.8125rem;
+  color: rgba(var(--color-neutral-500), 1);
+  margin-bottom: 0.875rem;
+  position: relative;
+  z-index: 2;
+}
+
+.dark .article-card-meta {
+  color: rgba(var(--color-neutral-400), 1);
+}
+
+/* Card Summary */
+.article-card-summary {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: rgba(var(--color-neutral-600), 1);
+  flex-grow: 1;
+  margin-bottom: 1.25rem;
+  position: relative;
+  z-index: 2;
+}
+
+.dark .article-card-summary {
+  color: rgba(var(--color-neutral-300), 1);
+}
+
+.article-card-summary p {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.article-card-summary p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Card Footer / Read More */
+.article-card-footer {
+  margin-top: auto;
+  padding-top: 0.875rem;
+  border-top: 1px solid rgba(var(--color-neutral-100), 1);
+  position: relative;
+  z-index: 2;
+}
+
+.dark .article-card-footer {
+  border-top-color: rgba(var(--color-neutral-700), 0.4);
+}
+
+.article-card-readmore {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgba(var(--color-primary-600), 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: all 0.2s ease;
+  text-decoration: none !important;
+}
+
+.dark .article-card-readmore {
+  color: rgba(var(--color-primary-400), 1);
+}
+
+.readmore-arrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.article-card:hover .readmore-arrow {
+  transform: translateX(4px);
+}
+
+.article-card:hover .article-card-readmore {
+  color: rgba(var(--color-primary-700), 1);
+}
+
+.dark .article-card:hover .article-card-readmore {
+  color: rgba(var(--color-primary-300), 1);
+}

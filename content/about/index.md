@@ -9,6 +9,9 @@ showAuthor: false
 
 ## Who I am
 
+***PENDING REVIEW to update at Bio as well:
+Engineering & Program Leader at TiVo, driving multi-platform delivery across Android, iOS, and Roku ecosystems. Having navigated the software lifecycle as a Developer, QA, Scrum Master, and TPM before stepping into Engineering Management, I bring a 360-degree perspective to complex execution. I specialize in clearing ambiguity, driving cross-functional alignment, and fostering a trust-first engineering culture where teams are shielded from noise and empowered to ship core value nimbly.***
+
 I build teams where engineers feel safe, trusted, and empowered to do their best work.
 Engineering leader who builds high-ownership teams — where accountability is the culture, not the ask.
 
