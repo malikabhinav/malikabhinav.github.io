@@ -162,6 +162,7 @@ html {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  user-select: none;
 }
 
 .dark .article-card {
@@ -188,6 +189,7 @@ html {
   overflow: hidden;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  pointer-events: none;
 }
 
 .article-card-image img {
@@ -206,6 +208,7 @@ html {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  pointer-events: none;
 }
 
 /* Category Badge */
@@ -221,9 +224,8 @@ html {
   background-color: rgba(var(--color-primary-100), 0.8);
   color: rgba(var(--color-primary-700), 1);
   margin-bottom: 0.75rem;
-  position: relative;
-  z-index: 2;
   width: fit-content;
+  pointer-events: none;
 }
 
 .dark .article-card-badge {
@@ -244,6 +246,8 @@ html {
   color: rgba(var(--color-neutral-900), 1);
   text-decoration: none !important;
   transition: color 0.2s ease;
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 .dark .article-card-title a {
@@ -257,6 +261,7 @@ html {
   inset: 0;
   z-index: 1;
   border-radius: 1rem;
+  cursor: pointer;
 }
 
 .article-card:hover .article-card-title a {
@@ -272,12 +277,17 @@ html {
   font-size: 0.8125rem;
   color: rgba(var(--color-neutral-500), 1);
   margin-bottom: 0.875rem;
-  position: relative;
-  z-index: 2;
+  pointer-events: none;
 }
 
 .dark .article-card-meta {
   color: rgba(var(--color-neutral-400), 1);
+}
+
+.article-card-meta a {
+  pointer-events: auto;
+  position: relative;
+  z-index: 2;
 }
 
 /* Card Summary */
@@ -287,8 +297,7 @@ html {
   color: rgba(var(--color-neutral-600), 1);
   flex-grow: 1;
   margin-bottom: 1.25rem;
-  position: relative;
-  z-index: 2;
+  pointer-events: none;
 }
 
 .dark .article-card-summary {
@@ -309,8 +318,7 @@ html {
   margin-top: auto;
   padding-top: 0.875rem;
   border-top: 1px solid rgba(var(--color-neutral-100), 1);
-  position: relative;
-  z-index: 2;
+  pointer-events: none;
 }
 
 .dark .article-card-footer {
@@ -326,6 +334,7 @@ html {
   gap: 0.35rem;
   transition: all 0.2s ease;
   text-decoration: none !important;
+  pointer-events: none;
 }
 
 .dark .article-card-readmore {
