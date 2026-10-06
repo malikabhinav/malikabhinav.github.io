@@ -4,7 +4,7 @@ date: 2025-11-25
 description: "Effective leadership is remarkably quiet. Introducing GIST: Goal, Integrity, Safety, and Trust."
 tags: ["mental-model"]
 categories: ["Leadership"]
-series: ["My Leadership"]
+series: ["Engineering Leadership"]
 showTableOfContents: true
 showReadingTime: true
 ---
